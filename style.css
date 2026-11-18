@@ -32,7 +32,7 @@ main{
     justify-content: center;
     background-color: #0E131F;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     border-radius: 15px;
 }
 .temporada{
@@ -53,4 +53,27 @@ main{
     text-align: center;
     font-weight: 700;
     font-size: 20px;
+}
+.subtitulo{
+    display: flex;
+    text-align: center;
+    color: #94a3b8;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.card-interno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5%;
+    width: 40%;
+    height: 30%;
+    
 }
